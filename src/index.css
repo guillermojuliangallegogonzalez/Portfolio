@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+    --color-skin: hsl(342, 92%, 46%);
+    --color-body-color: hsl(242, 19%, 5%);
+    --color-box-color: hsl(242, 14%, 10%);
+    --color-title-color: hsl(242, 8%, 95%);
+    --color-text-color: hsl(242, 8%, 85%);
+}
+
+@layer base {
+    body {
+        background-color: var(--color-body-color);
+        color: var(--color-text-color);
+    }
+}
