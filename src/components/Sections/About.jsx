@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiAward, FiBriefcase, FiHeadphones } from 'react-icons/fi';
+import { FiDownload, FiCheckCircle } from 'react-icons/fi';
+import aboutImg from '../../assets/img/about-img.jpg';
 import Qualification from './Qualification';
 
 const About = () => {
@@ -32,7 +33,7 @@ const About = () => {
                         <div className="relative group">
                             <div className="absolute -inset-1 bg-gradient-to-r from-skin to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                             <img
-                                src="/assets/img/about-img.jpg"
+                                src={aboutImg}
                                 alt="About Me"
                                 className="relative rounded-2xl shadow-xl w-full max-w-sm object-cover aspect-[3/4]"
                             />

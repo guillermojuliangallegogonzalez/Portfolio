@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiInstagram, FiLinkedin, FiArrowDown } from 'react-icons/fi';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FiGithub, FiLinkedin, FiInstagram, FiArrowRight, FiMousePointer } from 'react-icons/fi';
+
+import homeImg from '../../assets/img/home-img.png';
 
 const Home = () => {
     return (
@@ -73,7 +74,7 @@ const Home = () => {
                     >
                         {/* Profile Image blob shape mask or just rounded */}
                         <div className="w-full h-full rounded-full overflow-hidden border-4 border-skin shadow-2xl shadow-skin/20">
-                            <img src="/assets/img/home-img.png" alt="Guillermo Gallego" className="w-full h-full object-cover" />
+                            <img src={homeImg} alt="Guillermo Gallego" className="w-full h-full object-cover" />
                             {/* Fallback if image path is wrong (since I moved content to legacy_backup, need to copy images back!) */}
                         </div>
                     </motion.div>

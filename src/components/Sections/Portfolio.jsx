@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiArrowRight, FiX, FiCalendar, FiCode, FiUser, FiExternalLink } from 'react-icons/fi';
+import work1 from '../../assets/img/work-1.png';
+import work2 from '../../assets/img/work-2.png';
+import work3 from '../../assets/img/work-3.png';
 
 const Portfolio = () => {
     const [filter, setFilter] = useState('all');
@@ -18,7 +21,7 @@ const Portfolio = () => {
             id: 1,
             title: "App Academia",
             category: "app",
-            img: "/assets/img/work-1.png",
+            img: work1,
             desc: "App Academia es una aplicación de gestión de cursos, permitiendonos listar, dar de alta y dar de baja a los diferentes alumnos de un centro en su respectiva base de datos.",
             date: "15 enero 2023",
             tech: "Java, JavaFX",
@@ -29,7 +32,7 @@ const Portfolio = () => {
             id: 2,
             title: "ModuHelp",
             category: "web",
-            img: "/assets/img/work-2.png",
+            img: work2,
             desc: "Página web diseñada para la presentación del proyecto ModuHelp.",
             date: "8 junio 2021",
             tech: "Html - CSS - JavaScript",
@@ -40,7 +43,7 @@ const Portfolio = () => {
             id: 3,
             title: "App Encuestas",
             category: "design", // Original used design class, keeping it.
-            img: "/assets/img/work-3.png",
+            img: work3,
             desc: "App Encuestas nos permite realizar 4 tipos de encuestas y guardar el resultado en un archivo csv.",
             date: "4 dec 2020",
             tech: "Java - JavaFX",
