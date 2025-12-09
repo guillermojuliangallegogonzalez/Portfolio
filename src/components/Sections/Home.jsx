@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiInstagram, FiArrowRight, FiMousePointer } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiInstagram, FiArrowRight, FiMousePointer, FiArrowDown } from 'react-icons/fi';
 
 import homeImg from '../../assets/img/home-img.png';
 

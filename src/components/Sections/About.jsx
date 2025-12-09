@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiDownload, FiCheckCircle } from 'react-icons/fi';
+import { FiDownload, FiCheckCircle, FiAward, FiBriefcase, FiHeadphones } from 'react-icons/fi';
 import aboutImg from '../../assets/img/about-img.jpg';
 import Qualification from './Qualification';
 
